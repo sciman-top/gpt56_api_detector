@@ -15,6 +15,10 @@
 
 概率探针实现参考：[hlwy-ai-checker](https://github.com/hanlinwenyuan/hlwy-ai-checker)
 
+论文依据：https://arxiv.org/abs/2607.10252
+
+用于复现的原始请求：https://github.com/chen-006/gpt56_api_detector/releases/download/v4.0.0/gpt.v4.0.0.7z
+
 ## 重要现实边界：不通过不一定是中转主动掺水
 
 已有实际测试表明，即使账号来自可信号池，请求也可能因官方风控、IP、反代、并发、限流或临时路由而落到不同能力层。相关讨论见 [Linux.do：官方风控与路由现象](https://linux.do/t/topic/2728901)。
@@ -25,11 +29,7 @@
 
 ## 一分钟上手
 
-Windows 用户解压后双击 `Windows一键启动.bat`。Linux 或 macOS 用户运行：
-
-```bash
-sh start_detector.sh
-```
+Windows 用户解压后双击 `Windows一键启动.bat`。Linux 或 macOS 用户运行：start_detector.sh
 
 浏览器会打开本机页面。按下面顺序填写：
 
